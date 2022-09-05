@@ -1,0 +1,5 @@
+<app-slider [characters]="sliderCharacters"></app-slider>
+<app-filter (filterData)="onFilterChanged($event)"></app-filter>
+<div class="main">
+    <app-cards *ngFor="let i of renderCharacters" [mycard]="i"></app-cards>
+</div>

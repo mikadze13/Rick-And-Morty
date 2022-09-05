@@ -1,0 +1,30 @@
+<div class="w-100 d-flex flex-wrap mt-5"> 
+<div class="card m-auto mt-5" style="width: 18rem;">
+    <img [src]="mycard.image" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{mycard.name}}</h5> 
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">{{mycard.status}}</li>
+      <li class="list-group-item">{{mycard.gender}}</li>
+      <!-- <li class="list-group-item">A third item</li> -->
+    </ul>
+    <div class="card-body">
+      <a 
+      routerLink="/characterInfo"
+      [queryParams]="{
+      name:mycard.name,
+      status:mycard.status,
+      location:mycard.location.name,
+      species:mycard.species
+      }" 
+      class="card-link"><button class="btn btn-dark w-100">My Alter Ego</button></a>
+        
+    </div>
+  </div>
+
+</div>
+
+<!-- [routerLink]="['/alters',mycard.name,mycard.status,mycard.gender,mycard.image]"        
+routerLinkActive="active"
+[routerLinkActiveOptions]="{exact:true}" -->

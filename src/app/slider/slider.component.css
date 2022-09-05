@@ -1,0 +1,7 @@
+.img1{
+    height: 600px;
+    object-fit: contain;
+}
+.carousel-item{
+    background: black;
+}
