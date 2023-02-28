@@ -1,7 +1,7 @@
 
 # Rick and morty
 
-connection to the back-end 
+rick and morty information using API
 
 
  
