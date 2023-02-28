@@ -19,6 +19,11 @@ Install my-project with npm
 
 ![App Screenshot](https://i.paste.pics/73f0038d23795ea60dcd241501a003bf.png)
 
+
+## Links
+- Live site URL - [Live site](https://rick-and-morty-kappa-blond.vercel.app/)
+- Solution URL - [Solution URL](https://github.com/mikadze13/Rick-And-Morty)
+
 ## Built With
 - HMTL
 - CSS 
