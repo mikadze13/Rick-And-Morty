@@ -17,7 +17,7 @@ Install my-project with npm
     
 ## Screenshots
 
-![App Screenshot](https://i.paste.pics/73f0038d23795ea60dcd241501a003bf.png)
+![App Screenshot](./src/assets/images/app-screenshot.png)
 
 
 ## Links
